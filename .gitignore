@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+
+# clang
+.cache*
+
+# vs code
+.vscode
+
+# build-dirs
+/build*/*
+
+# data 
+/data/*.graph
