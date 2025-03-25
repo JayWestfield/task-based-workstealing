@@ -43,7 +43,7 @@ public:
     size_t b = bottom_;
     const int size = static_cast<int>(b) - static_cast<int>(top_);
 
-    if (size + static_cast<int>(number_of_tasks) >=
+    while (size + static_cast<int>(number_of_tasks) >=
             static_cast<int>(capacity_) &&
         size > 0) {
       resize();
